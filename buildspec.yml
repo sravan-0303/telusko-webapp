@@ -3,11 +3,11 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo "No installation needed"
+      - echo "Nothing to install"
   build:
     commands:
       - echo "Preparing static website files"
 artifacts:
   files:
-    - 'src/main/webapp/**/*'
+    - '**/*'
   base-directory: 'src/main/webapp'
