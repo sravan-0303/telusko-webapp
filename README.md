@@ -86,7 +86,4 @@ AWS Services Used:
 
 ---
 
-## 👨‍💻 Author
-
-**SRAVAN**
 AWS | CI/CD | DevOps | Cloud Projects
