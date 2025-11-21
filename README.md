@@ -27,5 +27,3 @@ AWS Services Used:
 ---
 
 
-git clone <your-github-repo-url>
-cd <project-folder>
