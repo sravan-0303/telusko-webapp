@@ -4,10 +4,10 @@ metadata:
   name: sravan-web-service
   namespace: jenkins
 spec:
+  type: NodePort
   selector:
     app: sravan-web
-  type: NodePort
   ports:
-    - port: 8080
+    - port: 80
       targetPort: 8080
-      nodePort: 30080
+      nodePort: 30081
