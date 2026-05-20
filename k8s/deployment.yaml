@@ -4,6 +4,7 @@ metadata:
   name: sravan-web
   namespace: jenkins
 spec:
+  replicas: 2
   selector:
     matchLabels:
       app: sravan-web
@@ -13,7 +14,8 @@ spec:
         app: sravan-web
     spec:
       containers:
-        - name: sravan-web
-          image: IMAGE_PLACEHOLDER
-          ports:
-            - containerPort: 8080
+      - name: sravan-web
+        image: IMAGE_PLACEHOLDER
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
