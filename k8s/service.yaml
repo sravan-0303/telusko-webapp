@@ -4,10 +4,9 @@ metadata:
   name: sravan-web-service
   namespace: jenkins
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: sravan-web
   ports:
     - port: 80
       targetPort: 8080
-      nodePort: 30081
